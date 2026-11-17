@@ -1,0 +1,72 @@
+<!-- Name: Mohamed Ibrahim | Student ID: YOUR_ID_HERE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ibrahim - Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mohamed Ibrahim</h1>
+        <nav class="navbar">
+            <span class="nav-brand">Mohamed Ibrahim</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Profile Section -->
+        <section id="about" class="profile-section">
+            <img src="images/WhatsApp Image 2026-11-15 at 6.12.27 AM.jpeg" alt="Profile picture of Mohamed Ibrahim" class="profile-img">
+            <p>Computer Science & Software Engineering student passionate about web development and data.</p>
+            <button id="theme-btn" type="button">Toggle Dark Mode</button>
+        </section>
+
+        <!-- Three Cards Section -->
+        <section id="skills" class="cards-container">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Building clean and responsive web pages using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Strong foundation in Python, C++, C#, and problem-solving algorithms.</p>
+            </div>
+            <div class="card">
+                <h3>Databases</h3>
+                <p>Designing relational databases, writing SQL queries, and data warehousing.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="form-section">
+            <h2>Leave a Message</h2>
+            <form id="visitor-form">
+                <div class="form-group">
+                    <label for="visitor-name">Name:</label>
+                    <input type="text" id="visitor-name" name="visitor-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <p id="greeting-msg"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mohamed Ibrahim. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
